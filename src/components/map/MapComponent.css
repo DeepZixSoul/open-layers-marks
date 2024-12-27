@@ -1,0 +1,107 @@
+/* Estilos generales para el contenedor principal */
+#map {
+  width: 100%;
+  height: 80vh;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  display: block;
+}
+
+/* Estilos para la tabla de marcadores */
+#marker-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#marker-list h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f1f1f1;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+img {
+  max-width: 32px;
+  max-height: 32px;
+  border-radius: 50%;
+}
+/* Estilo del popup */
+.ol-popup {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 202px;
+  z-index: 1000;
+}
+
+#popup-content {
+  font-size: 14px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+.popup-header {
+  display: flex;
+  align-items: center; /* Centra verticalmente el título y el icono */
+  justify-content: space-between; /* Alinea el título a la izquierda y el icono a la derecha */
+}
+
+.popup-header h3 {
+  margin: 0; /* Elimina márgenes del título */
+  font-size: 18px; /* Ajusta el tamaño si es necesario */
+}
+/* 
+.ol-popup {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  max-width: 100%;
+  z-index: 10000;
+}
+
+.ol-popup:empty {
+  display: none;
+} */
