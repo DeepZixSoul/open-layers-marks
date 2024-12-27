@@ -40,15 +40,18 @@ Para configurar la aplicación localmente, sigue los pasos a continuación:
 
 2. **Instalar las Dependencias**
 
-````bash
+```bash
 npm install
+```
 
 3. **Compila y recarga en caliente para el desarrollo**
+
 ```bash
 npm run serve
+```
 
 4. **Compila y minimiza para producción**
+
 ```bash
 npm run build
-````
-# Gesti-n-de-Marcadores
+```
