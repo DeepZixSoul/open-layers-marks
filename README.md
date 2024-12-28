@@ -59,6 +59,6 @@ npm run build
 
 ## **Prueba con Netlify**
 
-- https://app.netlify.com/sites/open-layers-marker/configuration/general
+- https://open-layers-marker.netlify.app/
 
 ---
